@@ -116,6 +116,9 @@ button:hover {
     background-color: rgba(128, 128, 128, 0.87);
 }
 
+.hamburger {
+    display: none;
+}
 
 .section0 {
     font-family: 'Spin Cycle OT';
@@ -261,3 +264,52 @@ button:hover {
 .hero3:nth-child(4) {
     background-color: #4b4b46da;
 }
+
+
+
+
+
+
+
+
+
+ /* Breakpoints
+Breakpoints are key points that trigger layout changes in response to screen size, helping to build responsive (mobile-first) designs. Common breakpoints include:
+
+Device Type	Screen         Size Range
+
+Extra small devices (phones, 600px and down)
+@media only screen and (max-width: 600px) {...}
+
+Small devices (portrait tablets and large phones, 600px and up) 
+@media only screen and (min-width: 600px) {...}
+
+Medium devices (landscape tablets, 768px and up)
+@media only screen and (min-width: 768px) {...}
+
+Large devices (laptops/desktops, 992px and up) 
+@media only screen and (min-width: 992px) {...}
+
+Extra large devices (large laptops and desktops, 1200px and up) 
+@media only screen and (min-width: 1200px) {...} 
+*/
+
+
+/* Media Queries */
+/* Mobile devices */
+@media only screen and (max-width: 600px) {
+    .headerList {
+        display: none;
+    }
+
+    header {
+        justify-content:space-around;
+        width: 100%;
+        margin: 100px 200px;
+    }
+
+    .hamburger {
+        width: 50px;
+        height: 50px;
+    }
+  }
