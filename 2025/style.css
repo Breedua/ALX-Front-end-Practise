@@ -1,0 +1,263 @@
+/* Reset css */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/* font embedded in the HTML head was gotten from google fonts and is called poppins. 
+The commented "Edu VIC WA NT Beginner", serif; and "Source Sans 3", serif; 
+are the outcome of the poppins fonts and how to use them in css. 
+This practice is now a resource material for these fonts*/
+
+/* .edu-vic-wa-nt-beginner-<uniquifier> {
+  font-family: "Edu VIC WA NT Beginner", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.source-sans-3-<uniquifier> {
+  font-family: "Source Sans 3", serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+} */
+
+
+
+/*'Source Sans Pro'; and 'Spin Cycle OT' are downloaded and have their folders in this document with all the fonts included.
+first point of order is to link the parent font-family(folder) and the specific font to be used in that font-family.*/
+
+
+@font-face {
+    font-family: 'Source Sans Pro';
+    src: url('./source-sans-pro/SourceSansPro-Bold.otf') format('opentype');
+    font-weight: bold;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Source Sans Pro';
+    src: url('./source-sans-pro/SourceSansPro-Regular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'Spin Cycle OT';
+    src: url('./Spin-Cycle-OT/spincycle_3d_ot.otf') format('opentype');
+    font-weight: bold;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'Spin Cycle OT';
+    src: url('./Spin-Cycle-OT/spincycle_ot.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: #f3eeea;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    margin: 20px 50px;
+    border: 1px solid rgb(77, 70, 58);
+    box-shadow: 10px 10px 20px #324438ad;
+    font-family: "Source Sans 3", serif;
+    font-weight: bold;
+    background-color: rgba(245, 245, 245, 0.697);
+    /* top: 0;
+    position: sticky; */
+}
+
+.logoName {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+    color: #324438;
+}
+
+.headerList {
+    display: flex;
+    flex-direction: row
+}
+
+.headerList, li, a {
+    list-style: none;
+    text-decoration: none;
+    color: #4b4b46da;
+    gap: 30px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.headerList, li, a:hover {
+    color: rgba(186, 182, 182, 0.945)
+}
+
+.button {
+    color: white;
+    background-color: #324438;
+    padding: 5px 20px;
+}
+
+button:hover {
+    background-color: rgba(128, 128, 128, 0.87);
+}
+
+
+.section0 {
+    font-family: 'Spin Cycle OT';
+    font-weight: bold;
+    line-height: 1;
+    display: flex;
+    flex-direction: row;
+    padding: 50px;
+    margin-top: 10px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.section0, h1 {
+    color: #383733;
+    font-size: 32px;
+}
+
+ .section0, p {
+    color: #586e5d;
+    font-size: 20px;
+    margin-top: 40px;
+    width: 100%;
+ }
+
+ .button0 {
+    color: white;
+    background-color: #324438;
+    padding: 10px 40px;
+    margin-top: 40px;
+}
+
+.section0-img {
+    position: absolute;
+    top: -20px;
+    right: 5px;
+}
+
+.section1 {
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+    font-family: 'Source Sans Pro';
+    padding: 40px;
+}
+
+.hero {
+    margin-top: 60px;
+}
+
+.hero h1 {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.hero p {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.hero0 {
+    display: flex;
+    flex-direction: row;
+}
+
+.hero1 {
+    padding: 20px;
+    margin-top: 30px;
+    color: #586e5d;
+}
+
+.hero1 h2 {
+    font-size: 22px;
+    font-weight: 900;
+    padding: 20px;
+}
+
+.hero1 p {
+    font-size: 15px;
+    font-weight: 400;
+    color: #586e5db6;
+}
+
+.section2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 40px;
+    font-family: "Edu VIC WA NT Beginner", serif;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+.hero2{
+    margin-top: 30px;
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    position: relative;
+    width: 90%;
+    height: 30vh;
+    overflow-y: visible;
+}
+
+.hero3 {
+    border-radius: 30px;
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.hero3 p {
+    color: white;
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.img {
+    position: absolute;
+    top: 30px;
+    right: 1px;
+}
+
+.hero3:nth-child(1) {
+    background-color: #586e5d;
+}
+
+.hero3:nth-child(2) {
+    background-color: #383733;
+}
+
+.hero3:nth-child(3) {
+    background-color: #dedede;
+}
+
+.hero3:nth-child(4) {
+    background-color: #4b4b46da;
+}
