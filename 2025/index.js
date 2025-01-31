@@ -16,5 +16,18 @@
 // Infinity love loop---------This is just me fooling around
 
 // for (let love = 1; love <= 1; love++) {
-// console.log("My Love is infinit times: ", love)
+// console.log("My Love is infinite times: ", love)
 // }
+
+// Functions
+
+function printNumbers(firstNum, lastNum) {
+    let i = firstNum;
+
+    while(i <= lastNum) {
+    console.log("Number: ", i);
+    i = i + 1;
+}
+}
+
+printNumbers(50, 100);
