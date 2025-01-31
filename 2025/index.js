@@ -1,17 +1,17 @@
 // loops
 
 // 1. while loopinde
-let i = 0;
-while(i < 10) {
-    console.log("Number: ", i);
-    i = i + 1;
-}
+// let i = 0;
+// while(i < 10) {
+//     console.log("Number: ", i);
+//     i = i + 1;
+// }
 
 // 2. For loop
 
-for (let i = 0; i < 10; i++) {
-    console.log("Number: ", i);
-}
+// for (let i = 0; i < 10; i++) {
+//     console.log("Number: ", i);
+// }
 
 // Infinity love loop---------This is just me fooling around
 
