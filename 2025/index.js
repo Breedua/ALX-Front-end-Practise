@@ -15,6 +15,6 @@
 
 // Infinity love loop---------This is just me fooling around
 
-for (let love = 1; love >= 1; love++) {
-console.log("My Love is infinit times: ", love)
-}
+// for (let love = 1; love <= 1; love++) {
+// console.log("My Love is infinit times: ", love)
+// }
