@@ -23,6 +23,22 @@ let lastName = 'Ighalo';
 
 let fullName = firstName + ' ' + lastName
 
+//--------------string methods
+
+// let results = fullName.lastIndexOf();
+
+//let results = fullName.slice(0,4);
+
+//let results = fullName.substring(3,8)
+
+let results = firstName.replace("a", "o")
+
+console.log(fullName.toUpperCase())
+
+console.log(fullName.toLowerCase())
+
+console.log(results)
+
 console.log(fullName)
 
 //Getting specific characters/letters
@@ -31,11 +47,6 @@ console.log(fullName[0])
 //getting string length
 console.log(fullName.length)
 
-
-//--------------string methods
-console.log(fullName.toUpperCase())
-
-console.log(fullName.toLowerCase())
 
 //------- loops
 
