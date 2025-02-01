@@ -1,3 +1,23 @@
+// -------Introducing Variables (1. LET)
+// let age = 20;
+// let year = 2025;
+
+// age =25;
+// console.log (year, age)
+
+// -------------Introducing Variables (2. CONST)
+// const age = 22;
+// const year = 2022;
+
+// console.log (age, year)
+
+// -------------Introducing Variables (3. var)
+var age = 22;
+var year = 2022;
+
+console.log (age, year)
+
+
 //------- loops
 
 //---------- 1. while loop
@@ -19,6 +39,9 @@
 // for (let love = 1; love <= 1; love++) {
 // console.log("My Love is infinite times: ", love)
 // }
+
+//--------------3. Do While loop
+
 
 //-------- Functions
 
