@@ -17,6 +17,25 @@ var year = 2022;
 
 console.log (age, year)
 
+// String Concatenation 
+let firstName = 'Eduaina';
+let lastName = 'Ighalo';
+
+let fullName = firstName + ' ' + lastName
+
+console.log(fullName)
+
+//Getting specific characters/letters
+console.log(fullName[0])
+
+//getting string length
+console.log(fullName.length)
+
+
+//--------------string methods
+console.log(fullName.toUpperCase())
+
+console.log(fullName.toLowerCase())
 
 //------- loops
 
