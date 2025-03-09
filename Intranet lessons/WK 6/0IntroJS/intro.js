@@ -39,6 +39,10 @@ function greeting(names) {
 //string concatenation
 console.log(aName + ' ' + names)
 
+//string literals
+greet = `Hello ${aName} ${names}`
+console.log(greet)
+
 console.log (greeting());
 
 // DATA TYPES
@@ -66,23 +70,32 @@ console.log(results)
 
 
 // 3. Boolean
-true/false
+
+console.log(true, false)
 
 // 4. Array
-['0, january, 5, februrary']
-
 let people = ['victoria', 'alaso', 'emigbanam', 0, 'ochuko', 5];
 
 console.log(people);
 
 people[1] = 'ochuko'
 console.log(people[1]); //to get only the name at position 1 of 0,1,2 etc
-console.log(people[4])
-console.log(people.length)
+console.log(people[4]);
+console.log(people.length);
 
 
 //Array methods
+// let show = people.join('-') //adds whatever is inbetween the brackets to each word of the array, it could be '-', ',', '.' etc
 
+// let show = people.indexOf('emigbanam'); //Gets the index of the argument
+
+// let show = people.concat(['emily', 'david', 'valentine', 'jane']); //used to join/concatenate arrays
+
+let show = people.push('jane'); //Returns the length of the new array --- Can be classified as a destructive method as it changes the original value of the array
+
+show = people.pop(); //Removes the last value added inthe array, is also a destructive method
+
+console.log(show);
 
 
 // 5. Objects
