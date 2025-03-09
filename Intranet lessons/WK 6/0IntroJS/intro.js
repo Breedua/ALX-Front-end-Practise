@@ -1,14 +1,15 @@
-console.log("Hello World!!");
+alert("Hello World its the Great Dev EDUAINA!!!!!!");
+// print("My name is dev EDUA and i'm super exicited to finally be able tosay i have a working knowledge of javascript!!!!!!");
 
 //variable keyword
 // var, let, const
 
 //var
-var name = 'Eduaina'
+var aName = 'Eduaina'
 
-name = 'Ighalo'
+aName = 'Ighalo'
 
-console.log(name); 
+console.log(aName); 
 
 //let
 let names = 'Eduaina'
@@ -49,5 +50,7 @@ true/false
 const person = {
     fistName: 'Bee',
     age: 22,
-    houseaddress: Benincity
+    houseaddress: 'Benin-city'
 };
+
+console.log(person);
