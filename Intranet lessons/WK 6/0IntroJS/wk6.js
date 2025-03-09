@@ -43,7 +43,7 @@ console.log(aName + ' ' + names)
 greet = `Hello ${aName} ${names}`
 console.log(greet)
 
-console.log (greeting());
+console.log(greeting());
 
 // DATA TYPES
 
@@ -54,16 +54,16 @@ console.log (greeting());
 // 2. Numbers
 29.118
 30
-// NaN- Not a Number e.g (5/hello)
+        // NaN- Not a Number e.g (5/hello)
 
-//Number concatenation
+        //Number concatenation
 let likes = 100;
 
 let resulting = 'the blog has ' + likes + ' likes';
 
 console.log(resulting)
 
-//template string/template literal
+        //template string/template literal
  
 let results = `The client ${names} ${aName} wants ${likes} likes by the end of the first 5 minuites`;
 console.log(results)
@@ -73,6 +73,28 @@ console.log(results)
 
 console.log(true, false)
 
+        //Methods that can return booleans
+    let email = 'nongenius27@gmail.com';
+    let myLoves = ['victoria', 'alaso', 'emigbanam', 'ochuko', 'emily', 'david', 'valentine', 'jane'];
+
+    // let emailResult = email.includes('@'); // this method returns a boolean
+    let emailResult = email.includes('?') ;
+    let friends = myLoves.includes('ochuko');
+
+    console.log(emailResult);
+    console.log(friends)
+
+        //Comparison operators also return boolean
+    let age = 29;
+
+    console.log(age==24); //f
+    console.log(age==29); //t
+    console.log(age!=24); //t
+    console.log(age<24); //f
+    console.log(age>24); //t
+    console.log(age>=24); //t
+    console.log(age<=24); //f
+    
 // 4. Array
 let people = ['victoria', 'alaso', 'emigbanam', 0, 'ochuko', 5];
 
@@ -106,3 +128,17 @@ const person = {
 };
 
 console.log(person);
+
+//Type Conversion
+let score = '100';
+
+score = Number(score); //first convert the string to a number before adding else it becomes concatenation
+console.log(score + 1);
+
+console.log(typeof score); // to check for the data type
+
+let convo = String(50);
+console.log(convo, typeof convo);
+console.log(typeof convo)
+
+let cvo = Boolean(29) //converting to boolean [Both negative and whole + positive numbers give true, zero in any format gives false]
