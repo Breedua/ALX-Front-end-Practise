@@ -1,4 +1,4 @@
-console.log("Hello World its the Great Dev EDUAINA!!!!!!");
+alert("Hello World its the Great Dev EDUAINA!!!!!!");
 // print("My name is dev EDUA and i'm super exicited to finally be able tosay i have a working knowledge of javascript!!!!!!");
 
 //variable keyword
@@ -142,3 +142,18 @@ console.log(convo, typeof convo);
 console.log(typeof convo)
 
 let cvo = Boolean(29) //converting to boolean [Both negative and whole + positive numbers give true, zero in any format gives false]
+
+
+
+
+
+
+// CONDITIONAL STATEMENTS
+
+//LOOPS
+
+// 1. for loop
+
+// 2. while loop
+
+// 3. do..while loop 
